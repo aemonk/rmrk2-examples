@@ -1,6 +1,8 @@
+# Purpose
+
 It may be helpful for understanding of the RMRK 2.0 standard to walk through the RMRKs that are used when running `npx ts-node ./run-mint-sequence.ts`.
 
-Pre-requisites:
+# Pre-requisites:
 - You'll need to run a Polkadot dev node. Specifically, you'll run ./target/release/polkadot --dev --tmp in a separate terminal window. If you can't do this, check out these instructions. 
 - Clone https://github.com/rmrk-team/rmrk2-examples.git, run `yarn` inside projects/scripts folder, and update `.env` inside scripts to include valid [Pinata](https://pinata.cloud) credentials
 
