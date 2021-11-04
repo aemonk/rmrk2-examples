@@ -288,7 +288,7 @@ RMRK::EQUIP::2.0.0::28-d43593c715a56da27d-CHNKITMS-chunky_spear-00000004::
 base-8-CHNKBS.chunky_objectLeft
 ```
 
-28. But why is this?  If we examine `mint-chunk-items.ts`, we learn that there are four sets because we are iterating through four Items:
+28. But why is this?  If we examine `mint-chunky-items.ts`, we learn that there are four sets because we are iterating through four Items:
 ```
 chunkyItems.forEach((item, index) => {
 ```
@@ -446,6 +446,7 @@ RMRK::MINT::2.0.0::
 
 - Adding Base resources to Chunkies
 RMRK::RESADD::2.0.0::16-d43593c715a56da27d-CHNK-chunky_1-00000001::
+
 ```json
 {
   "base": "base-8-CHNKBS",
@@ -486,6 +487,7 @@ RMRK::MINT::2.0.0::
 ```
 
 - Adding Items to Resources
+
 RMRK::RESADD::2.0.0::28-d43593c715a56da27d-CHNKITMS-chunky_bone-00000001::
 ```json
 {
@@ -497,6 +499,7 @@ RMRK::RESADD::2.0.0::28-d43593c715a56da27d-CHNKITMS-chunky_bone-00000001::
 ```
 
 - Sending Items to Chunkies
+
 RMRK::SEND::2.0.0::28-d43593c715a56da27d-CHNKITMS-chunky_bone-00000001::
 ```
 16-d43593c715a56da27d-CHNK-chunky_1-00000001
