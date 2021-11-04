@@ -64,8 +64,8 @@ import { WS_URL } from './constants';
 const deconstruct = async () => {
     const api = await getApi(WS_URL);
     const blocks = [8, 12, 16, 20, 25, 28, 31];
-    for (const block of blocks) {
-        console.log("Reading block ", block);
+    for (const blockNumber of blocks) {
+        console.log("Reading block ", blockNumber);
         // All subsequent code will go here.
     }
 
